@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleButtonWithToastMessage</string>
+    <string name="wish_message">Happy Birthday to Bill Gates.</string>
+</resources>

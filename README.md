@@ -7,20 +7,18 @@ Folder Structure:
 1911231_FA2020_CSE486.1
 
   |-------- Assignments
-  
-              |------------- Assignment 1
+
+      |------------- Lab
+
+          |------------- Lab 1
               
-              |------------- Assignment 2
-              
-              |------------- Assignment 3
-              
-              |------------- Assignment 4
-              
+      |------------- Theory
+                      
   |-------- Android Project
   
-              |------------- README.md
+      |------------- README.md
               
-              |------------- Project Code
+      |------------- Project Code
               
                               
   
