@@ -9,8 +9,10 @@ Folder Structure:
   |-------- Assignments
 
       |------------- Lab
+      
+          |------------- Lab 01 - Oct 29 2020 Thursday
 
-          |------------- Lab 1
+          |------------- Lab 02 - Nov 05 2020 Thursday
               
       |------------- Theory
                       
