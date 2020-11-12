@@ -13,6 +13,8 @@ Folder Structure:
           |------------- Lab 01 - Oct 29 2020 Thursday
 
           |------------- Lab 02 - Nov 05 2020 Thursday
+
+          |------------- Lab 03 - Nov 12 2020 Thursday
               
       |------------- Theory
                       
