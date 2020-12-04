@@ -15,7 +15,9 @@ Folder Structure:
           |------------- Lab 02 - Nov 05 2020 Thursday
 
           |------------- Lab 03 - Nov 12 2020 Thursday
-              
+
+          |------------- Lab 06 - Dec 03 2020 Thursday
+
       |------------- Theory
                       
   |-------- Android Project
