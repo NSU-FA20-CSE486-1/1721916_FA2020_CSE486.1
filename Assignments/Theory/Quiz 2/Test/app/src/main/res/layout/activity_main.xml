@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:text="@string/bangla_dictionary"
+        app:layout_constraintBottom_toTopOf="@+id/tvEnglish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tvEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:hint="english"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/tvBangla"
+        app:layout_constraintEnd_toEndOf="@+id/tvList"
+        app:layout_constraintStart_toStartOf="@+id/tvList"
+        app:layout_constraintTop_toBottomOf="@+id/tvList" />
+
+    <EditText
+        android:id="@+id/tvBangla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:hint="bangla"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSave"
+        app:layout_constraintEnd_toEndOf="@+id/tvEnglish"
+        app:layout_constraintStart_toStartOf="@+id/tvEnglish"
+        app:layout_constraintTop_toBottomOf="@+id/tvEnglish" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/save"
+        app:layout_constraintBottom_toTopOf="@+id/buttonVocabulary"
+        app:layout_constraintEnd_toEndOf="@+id/tvBangla"
+        app:layout_constraintStart_toStartOf="@+id/tvBangla"
+        app:layout_constraintTop_toBottomOf="@+id/tvBangla" />
+
+    <Button
+        android:id="@+id/buttonVocabulary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="299dp"
+        android:text="@string/vocabulary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSave"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonSave"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSave" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
