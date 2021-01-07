@@ -1,4 +1,4 @@
-package course.cse486.quiz2.test;
+package course.cse486.quiz2.BanglaDictionary;
 
 import org.junit.Test;
 
