@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "673193572667",
+    "firebase_url": "https://cse486-sas3-default-rtdb.firebaseio.com",
+    "project_id": "cse486-sas3",
+    "storage_bucket": "cse486-sas3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673193572667:android:870b9ccda17d5c12325f1e",
+        "android_client_info": {
+          "package_name": "course.cse486.foodfest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673193572667-r0n1m355eouskds92l942jt2tdi4caeq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "course.cse486.foodfest",
+            "certificate_hash": "a8171105de8e1441fe5b6173fbc431fde5fbb5f5"
+          }
+        },
+        {
+          "client_id": "673193572667-aj9290nb1s2pp1561vtls2c38b3704nl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsrq6RRf0yFNU-x88F3UV0cK3APw8f3ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673193572667-aj9290nb1s2pp1561vtls2c38b3704nl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
